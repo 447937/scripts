@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -eq 0 ]; then echo "Není zadán vstupní soubor v prvním parametru!"; exit; fi
+if [ $# -eq 0 ]; then echo "Není zadán vstupní soubor v prvním parametru!"; exit 1; fi
 
 echo ">>> START <<<"
 radek=1
